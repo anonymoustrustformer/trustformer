@@ -34,7 +34,7 @@ To reproduce the results, follow these steps:
 ## Configuration
 After installing the dependencies, you need to configure the settings in the ```config.json``` file. This configuration file controls the behavior of the different methods available in the project.
 **Example ```config.json``` File:**
-```bash
+```
 {
     "src_vocab_size" : 250000,
     "tgt_vocab_size" : 250000,
@@ -71,7 +71,29 @@ After installing the dependencies, you need to configure the settings in the ```
     "no_clip": "False",
     "clipping_bound": 0.5
 }
+```
+Ensure the "method" field is set to one of the available methods listed below.
+
+## Usage
+Once the dependencies are installed and the configuration is set, you can run the main file:
+```
+python run_test.py
+```
+
+This will execute the process based on the configuration you provided in the ```config.json``` file.
+
+## Available Methods
+You can choose from the following methods by specifying them in the ```config.json```:
+
+```trustformer``` – The proposed method with enhanced privacy and performance.
+```fedAvg``` – Standard Federated Averaging.
+```DP-fedAvg``` – Federated Averaging with Differential Privacy.
+```DP-fedSAM``` – SAM-enhanced Federated Learning with Differential Privacy.
+```DP-BLUR-LUS``` – Privacy-preserving method with BLUR and LUS techniques.
+
+## Results
+The results will be saved automatically after running the run_test.py script. Youcan find the results in the ```results``` folder after execution.
 
 
-
-2. Ensure the "method" field is set to one of the available methods listed below.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
