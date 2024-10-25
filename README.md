@@ -11,7 +11,6 @@ This repository contains the code for reproducing the results of **Trustformer**
 - [Available Methods](#available-methods)
 - [Results](#results)
 - [License](#license)
-- [Contact](#contact)
 
 ---
 
