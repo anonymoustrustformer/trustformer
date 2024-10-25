@@ -1,0 +1,27 @@
+# Exclude compiled Python files
+*.pyc
+*.pth
+*.png
+# Exclude files in the 'logs' directory
+logs/
+sealed_models/
+unsealed_models/
+MLP_TrainedModels/
+results/
+n_cluster=10/
+n_cluster=20/
+n_cluster=40/
+n_cluster=50/
+n_cluster=100/
+n_cluster=200/
+plots/
+data/
+baseline/
+venv/
+Output/
+# Exclude a specific file
+signed_transformer
+signed_transformer1
+signed_transformer2
+signed_transformer3
+transformer_1.h5
