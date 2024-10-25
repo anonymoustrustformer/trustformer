@@ -24,3 +24,12 @@ To reproduce the results, follow these steps:
    ```bash
    git clone https://github.com/your-repository/trustformer.git
    cd trustformer
+   
+2. **Install the required dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+
+
+## Configuration
+After installing the dependencies, you need to configure the settings in the ```config.json``` file. This configuration file controls the behavior of the different methods available in the project.
